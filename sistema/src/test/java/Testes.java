@@ -14,7 +14,7 @@ public class Testes {
 
     @Before
     public void setUp() throws Exception {
-        System.setProperty("webdrive.chropme.drive", "chromedriver.exe");
+        System.setProperty("webdrive.chrome.drive", "chromedriver.exe");
         driver = new ChromeDriver();
     }
 
